@@ -1,6 +1,6 @@
 (function (){
     // 在此处设置您的后端地址 如 https://example.com/api
-    let url: string = "http://127.0.0.1:8080/api",
+    let url: string = "https://busuanzi.iliyian.com/api",
         tags: string[] = ["site_pv", "site_uv", "page_pv", "page_uv"],
         current: HTMLOrSVGScriptElement = document.currentScript,
         pjax: boolean = current.hasAttribute("pjax"),                          // 是否启用 pjax
