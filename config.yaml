@@ -1,6 +1,6 @@
 Web:
   Address: 127.0.0.1:7070 # 监听地址
-  Cors: "https://iliyian.com, https://bookgirl.xyz" # 跨域访问
+  Cors: "https://iliyian.com, https://bookgirl.xyz, http://localhost:4000" # 跨域访问
   Debug: false # 是否开启debug模式
   Log: false # 是否开启日志
 Redis:
